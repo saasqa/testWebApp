@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="tests.Listners"/>
+    <listener class-name="tests.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="Validate web app(failed)">
+    <classes>
+      <class name="tests.TestWebApp">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="testCase2_VerifyLogo"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- tests.TestWebApp -->
+    </classes>
+  </test> <!-- Validate web app(failed) -->
+</suite> <!-- Failed suite [Suite] -->
