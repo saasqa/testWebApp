@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="16526" started-at="2019-08-27T10:25:43Z" finished-at="2019-08-27T10:25:59Z">
+  <suite name="Suite" duration-ms="24648" started-at="2019-08-28T10:47:06Z" finished-at="2019-08-28T10:47:30Z">
     <groups>
     </groups>
-    <test name="Validate web app" duration-ms="16526" started-at="2019-08-27T10:25:43Z" finished-at="2019-08-27T10:25:59Z">
+    <test name="Validate web app" duration-ms="24648" started-at="2019-08-28T10:47:06Z" finished-at="2019-08-28T10:47:30Z">
       <class name="tests.TestWebApp">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:tests.TestWebApp@1bd4fdd]" name="openBrowser" is-config="true" duration-ms="13458" started-at="2019-08-27T10:25:43Z" finished-at="2019-08-27T10:25:56Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:tests.TestWebApp@1bd4fdd]" name="openBrowser" is-config="true" duration-ms="22859" started-at="2019-08-28T10:47:06Z" finished-at="2019-08-28T10:47:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="testCase1_VerifyfooterText()[pri:0, instance:tests.TestWebApp@1bd4fdd]" name="testCase1_VerifyfooterText" duration-ms="205" started-at="2019-08-27T10:25:56Z" finished-at="2019-08-27T10:25:57Z">
+        <test-method status="PASS" signature="testCase1_VerifyfooterText()[pri:0, instance:tests.TestWebApp@1bd4fdd]" name="testCase1_VerifyfooterText" duration-ms="366" started-at="2019-08-28T10:47:29Z" finished-at="2019-08-28T10:47:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCase1_VerifyfooterText -->
-        <test-method status="FAIL" signature="testCase2_VerifyLogo()[pri:0, instance:tests.TestWebApp@1bd4fdd]" name="testCase2_VerifyLogo" duration-ms="148" started-at="2019-08-27T10:25:57Z" finished-at="2019-08-27T10:25:57Z">
+        <test-method status="FAIL" signature="testCase2_VerifyLogo()[pri:0, instance:tests.TestWebApp@1bd4fdd]" name="testCase2_VerifyLogo" duration-ms="120" started-at="2019-08-28T10:47:29Z" finished-at="2019-08-28T10:47:29Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[logo text is showing Aakash Nath instead of SaaS Leaders expected [true] but found [false]]]>
@@ -58,7 +58,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCase2_VerifyLogo -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.TestWebApp@1bd4fdd]" name="closeBrowser" is-config="true" duration-ms="2140" started-at="2019-08-27T10:25:57Z" finished-at="2019-08-27T10:25:59Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.TestWebApp@1bd4fdd]" name="closeBrowser" is-config="true" duration-ms="592" started-at="2019-08-28T10:47:30Z" finished-at="2019-08-28T10:47:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
